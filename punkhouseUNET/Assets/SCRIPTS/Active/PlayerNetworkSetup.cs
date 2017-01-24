@@ -14,6 +14,9 @@ public class PlayerNetworkSetup : NetworkBehaviour {
 			GetComponent<PlayerNetControllerScript> ().enabled = true;
 			FollowCamera.enabled=true;
 		}
+		if (!isLocalPlayer) {
+			FollowCamera.enabled = false;
+		}
 	}
 	
 

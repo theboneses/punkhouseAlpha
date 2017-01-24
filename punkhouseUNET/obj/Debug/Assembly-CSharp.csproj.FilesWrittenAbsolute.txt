@@ -1,0 +1,17 @@
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/UnityEngine.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/UnityEditor.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Mono.Cecil.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Unity.DataContract.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/obj/Debug/Assembly-CSharp.dll
+/Users/drewpizza/punkhouseAlpha/punkhouseUNET/obj/Debug/Assembly-CSharp.dll.mdb

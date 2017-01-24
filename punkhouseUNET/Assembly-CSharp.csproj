@@ -48,8 +48,10 @@
      <Compile Include="Assets\SCRIPTS\Active\PlayerControllerScript.cs" />
      <Compile Include="Assets\SCRIPTS\Active\PlayerNetControllerScript.cs" />
      <Compile Include="Assets\SCRIPTS\Active\PlayerNetworkSetup.cs" />
+     <Compile Include="Assets\SCRIPTS\Active\PlayerSyncPosition.cs" />
      <Compile Include="Assets\SCRIPTS\Active\cameraFollow.cs" />
      <Compile Include="Assets\SCRIPTS\Active\cameraFollowNet.cs" />
+     <Compile Include="Assets\SCRIPTS\Active\cameraFollowNew.cs" />
      <Compile Include="Assets\SCRIPTS\Inactive\ActivateTextByLine.cs" />
      <Compile Include="Assets\SCRIPTS\Inactive\Chat.cs" />
      <Compile Include="Assets\SCRIPTS\Inactive\IKControl.cs" />

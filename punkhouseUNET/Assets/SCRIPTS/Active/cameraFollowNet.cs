@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-//using UnityEngine.Networking;
+using UnityEngine.Networking;
 
-public class cameraFollowNet : MonoBehaviour {
+public class cameraFollowNet : NetworkBehaviour {
 
 	//public Camera followCamera;
 	public Vector3 lookDir;
@@ -17,27 +17,30 @@ public class cameraFollowNet : MonoBehaviour {
 	public Quaternion rotation;
 	void Start(){
 		follow = GameObject.FindGameObjectWithTag ("Player").transform;
-		//rotation = Quaternion.Euler (13, -90, 0);
+		rotation = Quaternion.Euler (13, -90, 0);
+		followXform = GameObject.FindGameObjectWithTag ("Player").transform.FindChild ("CameraMount");
 	}
 	// Update is called once per frame
 	void Update(){
-		//followXform = GameObject.FindGameObjectWithTag("Player").transform;
+		
 	}
-	void LateUpdate () 
+	void LateUpdate ()
 	{
-		Vector3 characterOffset = followXform.position + offset;
-		lookDir = characterOffset - this.transform.position;
-		lookDir.y = 0;
-		lookDir.Normalize();
-		Debug.DrawRay (this.transform.position, lookDir, Color.green);
+	if (isLocalPlayer) {
+			Vector3 characterOffset = followXform.position + offset;
+			lookDir = characterOffset - this.transform.position;
+			lookDir.y = 0;
+			lookDir.Normalize ();
+			Debug.DrawRay (this.transform.position, lookDir, Color.green);
 
-		followForward = follow.forward;
-		targetPosition = followXform.position + followXform.up * distanceUp + new Vector3(1,0,0)* distanceAway;
-		transform.position = Vector3.Lerp (transform.position, targetPosition, Time.deltaTime * smooth);
+			//followForward = follow.forward;
+			targetPosition = followXform.position + followXform.up * distanceUp + new Vector3 (1, 0, 0) * distanceAway;
+			transform.position = Vector3.Lerp (transform.position, targetPosition, Time.deltaTime * smooth);
 
 
 
-		transform.LookAt(followXform);
+			transform.LookAt (followXform);
+		}
 	}
 
 }
