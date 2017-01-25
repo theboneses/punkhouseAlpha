@@ -12,12 +12,17 @@ public class PlayerSyncPos : NetworkBehaviour {
 	[SerializeField]
 	float lerpRate = 15f;
 
+	private Vector3 lastPos;
 
-	
+	private float threshold = 0.3f;
+
+	void Update(){
+		LerpPosition ();
+	}
 	// Update is called once per frame
 	void FixedUpdate () {
 		TransmitPosition ();
-		LerpPosition ();
+	
 	}
 	void LerpPosition(){
 		if (!isLocalPlayer) {
@@ -30,9 +35,11 @@ public class PlayerSyncPos : NetworkBehaviour {
 	}
 	[ClientCallback]
 	void TransmitPosition(){
-		if (isLocalPlayer) {
-			CmdProvidePositionToServer (myTransform.position);
-		}
+		if (isLocalPlayer && Vector3.Distance(myTransform.position,lastPos)>threshold) {
+		CmdProvidePositionToServer (myTransform.position);
+				lastPos = myTransform.position;
+			}
+		
 	}
 
 }

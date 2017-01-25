@@ -13,15 +13,16 @@ public class PlayerSyncRot : NetworkBehaviour {
 	[SerializeField]
 	private float lerpRate = 15f;
 
-	// Use this for initialization
-	void Start () {
-	
+	private Quaternion lastRot;
+	private float threshold = 5f;
+
+	void Update(){
+		LerpRotation (); 
 	}
-	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		TransmitRotation ();
-		LerpRotation (); 
+
 	}
 	void LerpRotation(){
 		if (!isLocalPlayer) {
@@ -35,7 +36,10 @@ public class PlayerSyncRot : NetworkBehaviour {
 	[Client]
 	void TransmitRotation(){
 		if (isLocalPlayer) {
-			CmdProvideRotationToServer (playerTransform.rotation);
+			if (Quaternion.Angle(playerTransform.rotation, lastRot) > threshold) {
+				CmdProvideRotationToServer (playerTransform.rotation);
+				lastRot = playerTransform.rotation;
+			}
 		}
 	}
 }
