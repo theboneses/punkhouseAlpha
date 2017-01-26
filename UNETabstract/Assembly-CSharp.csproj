@@ -52,6 +52,7 @@
      <Compile Include="Assets\Pixel Crushers\Scene Streamer\Scripts\SceneStreamer.cs" />
      <Compile Include="Assets\Pixel Crushers\Scene Streamer\Scripts\SetStartScene.cs" />
      <Compile Include="Assets\charcustomAssets\agentScriptCC.cs" />
+     <Compile Include="Assets\itemCollision.cs" />
      <Compile Include="Assets\scripts\HostGame.cs" />
      <Compile Include="Assets\scripts\IKControl.cs" />
      <Compile Include="Assets\scripts\PController.cs" />
