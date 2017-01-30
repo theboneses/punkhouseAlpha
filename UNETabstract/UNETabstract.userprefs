@@ -1,14 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/itemCollision.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/itemCollision.cs">
     <Files>
-      <File FileName="Assets/scripts/PlayerNetworkSetup.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/GameControl_Dumpster.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/itemScript.cs" Line="1" Column="1" />
       <File FileName="Assets/scripts/PlayerNetControllerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/cameraFollowNet.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/PlayerSyncRot.cs" Line="19" Column="2" />
-      <File FileName="Assets/scripts/PlayerSyncPos.cs" Line="20" Column="19" />
-      <File FileName="Assets/scripts/itemScript.cs" Line="7" Column="2" />
-      <File FileName="Assets/itemCollision.cs" Line="17" Column="3" />
+      <File FileName="Assets/scripts/PnetController.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/itemCollision.cs" Line="48" Column="35" />
+      <File FileName="Assets/scripts/PlayerNetworkSetup.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

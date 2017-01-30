@@ -44,7 +44,7 @@ public class joinGame : MonoBehaviour {
 			Debug.Log ("you made it this far");
 			_roomListItemGO.transform.SetParent (roomListParent);
 			Debug.Log("the parent of" +_roomListItemGO+ "is" +_roomListItemGO.transform.parent+"!");
-			Debug.Log(roomListParent+"has" +roomListParent.childCount+"children");
+			//Debug.Log(roomListParent+"has" +roomListParent.childCount+"children");
 				
 			RoomListItemScript _roomListItem = _roomListItemGO.GetComponent<RoomListItemScript> ();
 			if (_roomListItem != null) {

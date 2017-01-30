@@ -47,14 +47,12 @@
   <ItemGroup>
      <Compile Include="Assets\IMPORTEDJUNK\Mixamo\Mecanim Demo\DemoControlScript.cs" />
      <Compile Include="Assets\IMPORTEDJUNK\Mixamo\Mecanim Demo\DemoScript.cs" />
-     <Compile Include="Assets\Pixel Crushers\Scene Streamer\Scripts\NeighboringScenes.cs" />
-     <Compile Include="Assets\Pixel Crushers\Scene Streamer\Scripts\SceneEdge.cs" />
-     <Compile Include="Assets\Pixel Crushers\Scene Streamer\Scripts\SceneStreamer.cs" />
-     <Compile Include="Assets\Pixel Crushers\Scene Streamer\Scripts\SetStartScene.cs" />
      <Compile Include="Assets\charcustomAssets\agentScriptCC.cs" />
-     <Compile Include="Assets\itemCollision.cs" />
+     <Compile Include="Assets\scripts\GameControl_Dumpster.cs" />
      <Compile Include="Assets\scripts\HostGame.cs" />
      <Compile Include="Assets\scripts\IKControl.cs" />
+     <Compile Include="Assets\scripts\ItemSyncPos.cs" />
+     <Compile Include="Assets\scripts\ItemSyncRot.cs" />
      <Compile Include="Assets\scripts\PController.cs" />
      <Compile Include="Assets\scripts\PlayerControllerScript.cs" />
      <Compile Include="Assets\scripts\PlayerNetControllerScript.cs" />
@@ -76,6 +74,7 @@
      <Compile Include="Assets\scripts\enterScript.cs" />
      <Compile Include="Assets\scripts\gameControl.cs" />
      <Compile Include="Assets\scripts\houseCamera.cs" />
+     <Compile Include="Assets\scripts\itemCollision.cs" />
      <Compile Include="Assets\scripts\itemScript.cs" />
      <Compile Include="Assets\scripts\joinGame.cs" />
      <Compile Include="Assets\scripts\movelook.cs" />
@@ -85,7 +84,6 @@
      <Compile Include="Assets\scripts\textboxmgr.cs" />
      <Compile Include="Assets\scripts\timerScript.cs" />
      <None Include="Assets\scripts\demo.txt" />
-     <None Include="Assets\Pixel Crushers\Scene Streamer\Example\_IMPORTANT_READ_ME_FIRST.txt" />
      <None Include="Assets\scripts\npcSpeech.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\scripts\startHelp03.txt" />
@@ -94,7 +92,6 @@
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\scripts\startHelp01.txt" />
-     <None Include="Assets\Pixel Crushers\Scene Streamer\_README.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
