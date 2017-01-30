@@ -7,17 +7,15 @@ public class cameraFollow : MonoBehaviour {
 	//public Camera followCamera;
 	public Vector3 lookDir;
 	public Vector3 offset;
-	public Transform followXform;
+	[SerializeField] Transform followXform;
+	[SerializeField] Transform follow;
 	public float distanceAway;
 	public float distanceUp;
 	public float smooth;
-	public Transform follow;
 	public Vector3 followForward;
 	public Vector3 targetPosition;
 	public Quaternion rotation;
 	void Start(){
-		follow = GameObject.FindGameObjectWithTag ("Player").transform;
-		//rotation = Quaternion.Euler (13, -90, 0);
 	}
 
 	// Update is called once per frame
