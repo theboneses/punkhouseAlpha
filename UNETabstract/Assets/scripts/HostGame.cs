@@ -13,6 +13,11 @@ public class HostGame : NetworkBehaviour {
 			networkManager.StartMatchMaker ();
 		}
 	}
+	void Update(){
+		if (Input.GetKey (KeyCode.Escape)) {
+			leaveRoom ();
+		}
+	}
 	public void setRoomName(string _name){
 		roomName = _name;
 	}
@@ -21,7 +26,9 @@ public class HostGame : NetworkBehaviour {
 			Debug.Log("we are creating room:"+roomName+"at size:"+roomsize+"please wait");
 			//create room
 			networkManager.matchMaker.CreateMatch(roomName,roomsize,true,"",networkManager.OnMatchCreate);
-
 		}
+	}
+	public void leaveRoom(){
+		networkManager.StopHost ();
 	}
 }
