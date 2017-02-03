@@ -11,10 +11,12 @@ public class PnetController : MonoBehaviour {
 
 	public Vector3 moveDirection = Vector3.zero;
 	public CharacterController controller;
+	public Animator anim;
 
 	void Start(){
 		// Store reference to attached component
 		controller = GetComponent<CharacterController>();
+		anim = GetComponent<Animator> ();
 	}
 
 	void Update() 
@@ -32,5 +34,7 @@ public class PnetController : MonoBehaviour {
 		moveDirection.y -= gravity * Time.deltaTime;
 		// Move Character Controller
 		controller.Move(moveDirection * Time.deltaTime);
+		float animSpeed = Vector3.Magnitude (moveDirection);
+		anim.SetFloat ("speed",animSpeed);
 	}
 }
