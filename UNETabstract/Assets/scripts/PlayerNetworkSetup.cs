@@ -14,7 +14,11 @@ public class PlayerNetworkSetup : NetworkBehaviour {
 			GetComponent<PnetController> ().enabled = true;
 			GetComponentInChildren<movelook> ().enabled = true;
 			//FollowCamera.enabled=true;
+			GetComponent<NetworkAnimator>().SetParameterAutoSend(0,true);
 		}
+	}
+	public override void PreStartClient(){
+			GetComponent<NetworkAnimator>().SetParameterAutoSend(0,true);
 	}
 	
 
