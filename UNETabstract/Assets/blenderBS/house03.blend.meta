@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: c1d65102220f3414cb504423ba4c30d3
-timeCreated: 1483425609
+guid: ccddc8dc8d5854cad865668e700950ca
+timeCreated: 1486248328
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -20,10 +20,22 @@ ModelImporter:
     100024: Cube_012
     100026: Cube_013
     100028: Cube_014
-    100030: //RootNode
-    100032: house_volume
-    100034: roof
-    100036: roof_001
+    100030: Cube_015
+    100032: Cube_016
+    100034: Cube_017
+    100036: Cube_018
+    100038: Cube_019
+    100040: Cylinder
+    100042: Cylinder_001
+    100044: Cylinder_002
+    100046: Cylinder_003
+    100048: Cylinder_004
+    100050: Cylinder_005
+    100052: Cylinder_006
+    100054: Cylinder_007
+    100056: Cylinder_008
+    100058: Cylinder_009
+    100060: //RootNode
     400000: Cube
     400002: Cube_001
     400004: Cube_002
@@ -39,10 +51,22 @@ ModelImporter:
     400024: Cube_012
     400026: Cube_013
     400028: Cube_014
-    400030: //RootNode
-    400032: house_volume
-    400034: roof
-    400036: roof_001
+    400030: Cube_015
+    400032: Cube_016
+    400034: Cube_017
+    400036: Cube_018
+    400038: Cube_019
+    400040: Cylinder
+    400042: Cylinder_001
+    400044: Cylinder_002
+    400046: Cylinder_003
+    400048: Cylinder_004
+    400050: Cylinder_005
+    400052: Cylinder_006
+    400054: Cylinder_007
+    400056: Cylinder_008
+    400058: Cylinder_009
+    400060: //RootNode
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -58,9 +82,21 @@ ModelImporter:
     2300024: Cube_012
     2300026: Cube_013
     2300028: Cube_014
-    2300030: house_volume
-    2300032: roof
-    2300034: roof_001
+    2300030: Cube_015
+    2300032: Cube_016
+    2300034: Cube_017
+    2300036: Cube_018
+    2300038: Cube_019
+    2300040: Cylinder
+    2300042: Cylinder_001
+    2300044: Cylinder_002
+    2300046: Cylinder_003
+    2300048: Cylinder_004
+    2300050: Cylinder_005
+    2300052: Cylinder_006
+    2300054: Cylinder_007
+    2300056: Cylinder_008
+    2300058: Cylinder_009
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -76,27 +112,51 @@ ModelImporter:
     3300024: Cube_012
     3300026: Cube_013
     3300028: Cube_014
-    3300030: house_volume
-    3300032: roof
-    3300034: roof_001
-    4300000: Cube_014
-    4300002: Cube_013
-    4300004: Cube_012
-    4300006: Cube_011
-    4300008: Cube_004
-    4300010: Cube_010
-    4300012: Cube_009
-    4300014: Cube_008
-    4300016: Cube_007
-    4300018: Cube_006
-    4300020: Cube_005
-    4300022: Cube_003
-    4300024: Cube_002
-    4300026: Cube_001
-    4300028: Cube
-    4300030: roof_001
-    4300032: roof
-    4300034: house_volume
+    3300030: Cube_015
+    3300032: Cube_016
+    3300034: Cube_017
+    3300036: Cube_018
+    3300038: Cube_019
+    3300040: Cylinder
+    3300042: Cylinder_001
+    3300044: Cylinder_002
+    3300046: Cylinder_003
+    3300048: Cylinder_004
+    3300050: Cylinder_005
+    3300052: Cylinder_006
+    3300054: Cylinder_007
+    3300056: Cylinder_008
+    3300058: Cylinder_009
+    4300000: Cylinder_009
+    4300002: Cylinder_008
+    4300004: Cube_019
+    4300006: Cube_018
+    4300008: Cylinder_007
+    4300010: Cylinder_006
+    4300012: Cylinder_005
+    4300014: Cylinder_004
+    4300016: Cube_017
+    4300018: Cube_016
+    4300020: Cylinder_003
+    4300022: Cylinder_002
+    4300024: Cylinder_001
+    4300026: Cylinder
+    4300028: Cube_015
+    4300030: Cube_002
+    4300032: Cube_014
+    4300034: Cube_003
+    4300036: Cube_012
+    4300038: Cube_007
+    4300040: Cube_006
+    4300042: Cube_010
+    4300044: Cube_009
+    4300046: Cube_004
+    4300048: Cube_008
+    4300050: Cube_005
+    4300052: Cube_013
+    4300054: Cube_011
+    4300056: Cube_001
+    4300058: Cube
     7400000: Default Take
     9500000: //RootNode
   materials:

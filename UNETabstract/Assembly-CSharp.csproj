@@ -48,6 +48,8 @@
      <Compile Include="Assets\IMPORTEDJUNK\Mixamo\Mecanim Demo\DemoControlScript.cs" />
      <Compile Include="Assets\IMPORTEDJUNK\Mixamo\Mecanim Demo\DemoScript.cs" />
      <Compile Include="Assets\charcustomAssets\agentScriptCC.cs" />
+     <Compile Include="Assets\followCamera.cs" />
+     <Compile Include="Assets\scripts\CameraSwitch.cs" />
      <Compile Include="Assets\scripts\GameControl_Dumpster.cs" />
      <Compile Include="Assets\scripts\HostGame.cs" />
      <Compile Include="Assets\scripts\IKControl.cs" />
@@ -71,21 +73,29 @@
      <Compile Include="Assets\scripts\cameraFollow.cs" />
      <Compile Include="Assets\scripts\cameraFollowNet.cs" />
      <Compile Include="Assets\scripts\cubeControl.cs" />
+     <Compile Include="Assets\scripts\dumpsterScript.cs" />
      <Compile Include="Assets\scripts\enterScript.cs" />
      <Compile Include="Assets\scripts\gameControl.cs" />
      <Compile Include="Assets\scripts\houseCamera.cs" />
+     <Compile Include="Assets\scripts\irisEnabled.cs" />
      <Compile Include="Assets\scripts\itemCollision.cs" />
      <Compile Include="Assets\scripts\itemScript.cs" />
      <Compile Include="Assets\scripts\joinGame.cs" />
      <Compile Include="Assets\scripts\movelook.cs" />
      <Compile Include="Assets\scripts\playerBubble.cs" />
      <Compile Include="Assets\scripts\punkController.cs" />
+     <Compile Include="Assets\scripts\shaderTest.cs" />
      <Compile Include="Assets\scripts\textRot.cs" />
      <Compile Include="Assets\scripts\textboxmgr.cs" />
      <Compile Include="Assets\scripts\timerScript.cs" />
      <None Include="Assets\scripts\demo.txt" />
+     <None Include="Assets\IMPORTEDJUNK\washbasin\archibase.net.txt" />
+     <None Include="Assets\IMPORTEDJUNK\toilet\archibase.net.txt" />
+     <None Include="Assets\materials\spotlight3.shader" />
      <None Include="Assets\scripts\npcSpeech.txt" />
+     <None Include="Assets\IMPORTEDJUNK\1fa8b823312df11c5542e572fbae8005\archibase.net.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\IMPORTEDJUNK\sink\archibase.net.txt" />
      <None Include="Assets\scripts\startHelp03.txt" />
      <None Include="Assets\scripts\startHelp02.txt" />
      <None Include="Assets\scripts\quest1.txt" />
@@ -94,6 +104,8 @@
      <None Include="Assets\scripts\startHelp01.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\materials\spotlight.shader" />
+     <None Include="Assets\IMPORTEDJUNK\wc\archibase.net.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

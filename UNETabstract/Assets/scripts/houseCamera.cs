@@ -5,8 +5,12 @@ public class houseCamera : MonoBehaviour {
 
 	public Camera houseCam;
 	public GameObject[] player;
+
+
 	public Transform target;
 	public Vector3 pCoM;
+	public Vector3 lastPCoM;
+	public Vector3 transCam;
 
 	// Use this for initialization
 	void Awake() {
@@ -18,10 +22,15 @@ public class houseCamera : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		player = GameObject.FindGameObjectsWithTag("Player");
-		Debug.Log ("player length =" + player.Length);
+
 		pCoM = playerCenter(pCoM,player);
-		target.position = pCoM;
+		target.position = Vector3.Lerp(target.position,pCoM+ new Vector3(0,0.5f,0),Time.deltaTime);
 		houseCam.transform.LookAt(target);
+		transCam = pCoM - lastPCoM;
+		//houseCam.transform.Translate(transCam);
+		lastPCoM=pCoM;	
+
+
 	}
 
 	//this computes a center for all players.
@@ -38,8 +47,9 @@ public class houseCamera : MonoBehaviour {
 			}
 			c = new Vector3(x / players.Length, y / players.Length, z / players.Length);
 		}
-		Debug.Log ("c = ( "+  c + ")");
+		//Debug.Log ("c = ( "+  c + ")");
 
 		return c;
 	}
+
 }

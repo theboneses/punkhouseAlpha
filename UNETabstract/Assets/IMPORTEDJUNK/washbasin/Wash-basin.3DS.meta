@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: f6e8f2f055c9547729c0276513cde394
+timeCreated: 1486418064
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box010
+    100002: Box011
+    100004: Box011.Box
+    100006: Box013
+    100008: Box014
+    100010: Group005
+    100012: Group006
+    100014: Group007
+    100016: kran
+    100018: nakladka
+    100020: rakovina
+    100022: rychka 010
+    100024: rychka 018
+    100026: stenka
+    100028: stenka001
+    100030: stenka002
+    100032: //RootNode
+    100034: yashick
+    100036: yashick 2
+    100038: yashick 3
+    100040: yashick 30
+    100042: yashick 4
+    100044: yashick 5
+    100046: yashick 6
+    100048: yashick 7
+    100050: yashick 9
+    100052: yashick n1
+    100054: yushik 1
+    100056: yushik 2
+    400000: Box010
+    400002: Box011
+    400004: Box011.Box
+    400006: Box013
+    400008: Box014
+    400010: Group005
+    400012: Group006
+    400014: Group007
+    400016: kran
+    400018: nakladka
+    400020: rakovina
+    400022: rychka 010
+    400024: rychka 018
+    400026: stenka
+    400028: stenka001
+    400030: stenka002
+    400032: //RootNode
+    400034: yashick
+    400036: yashick 2
+    400038: yashick 3
+    400040: yashick 30
+    400042: yashick 4
+    400044: yashick 5
+    400046: yashick 6
+    400048: yashick 7
+    400050: yashick 9
+    400052: yashick n1
+    400054: yushik 1
+    400056: yushik 2
+    2300000: Box010
+    2300002: Box011
+    2300004: Box011.Box
+    2300006: Box013
+    2300008: Box014
+    2300010: kran
+    2300012: nakladka
+    2300014: rakovina
+    2300016: rychka 010
+    2300018: rychka 018
+    2300020: stenka
+    2300022: stenka001
+    2300024: stenka002
+    2300026: yashick
+    2300028: yashick 2
+    2300030: yashick 3
+    2300032: yashick 30
+    2300034: yashick 4
+    2300036: yashick 5
+    2300038: yashick 6
+    2300040: yashick 7
+    2300042: yashick 9
+    2300044: yashick n1
+    2300046: yushik 1
+    2300048: yushik 2
+    3300000: Box010
+    3300002: Box011
+    3300004: Box011.Box
+    3300006: Box013
+    3300008: Box014
+    3300010: kran
+    3300012: nakladka
+    3300014: rakovina
+    3300016: rychka 010
+    3300018: rychka 018
+    3300020: stenka
+    3300022: stenka001
+    3300024: stenka002
+    3300026: yashick
+    3300028: yashick 2
+    3300030: yashick 3
+    3300032: yashick 30
+    3300034: yashick 4
+    3300036: yashick 5
+    3300038: yashick 6
+    3300040: yashick 7
+    3300042: yashick 9
+    3300044: yashick n1
+    3300046: yushik 1
+    3300048: yushik 2
+    4300000: rakovina
+    4300002: nakladka
+    4300004: Box011
+    4300006: Box011.Box
+    4300008: Box013
+    4300010: Box014
+    4300012: stenka001
+    4300014: yashick n1
+    4300016: stenka
+    4300018: stenka002
+    4300020: rychka 018
+    4300022: yushik 2
+    4300024: yashick 9
+    4300026: yashick 5
+    4300028: yashick 4
+    4300030: yashick 3
+    4300032: rychka 010
+    4300034: yashick 2
+    4300036: yashick
+    4300038: yashick 30
+    4300040: Box010
+    4300042: yashick 6
+    4300044: yashick 7
+    4300046: yushik 1
+    4300048: kran
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
