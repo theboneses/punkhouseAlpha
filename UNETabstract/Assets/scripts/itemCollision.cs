@@ -8,11 +8,15 @@ public class itemCollision : NetworkBehaviour {
 	public GameObject pickMe;
 	public float pushPower = 1.5F;
 	public GameObject[] picks;
+	public Transform carrySpot;
 	public FixedJoint fj;
 	private NetworkIdentity wiNetid;
 	private NetworkIdentity myNetid;
 	void Start(){
 		fj = GetComponent<FixedJoint> ();
+		fj.autoConfigureConnectedAnchor=false;
+		fj.anchor = carrySpot.position;
+
 		myNetid =	GetComponent<NetworkIdentity> ();
 	}
 
@@ -24,6 +28,7 @@ public class itemCollision : NetworkBehaviour {
 			if (Input.GetKey (KeyCode.Space) && isPickable) {
 				//set item as a hinged child
 				fj.connectedBody = pickMe.GetComponent<Rigidbody>();
+				//fj.connectedAnchor = pickMe.transform.position
 				CmdSetClientAuthority (pickMe);
 			//else clear hinge
 			} else {

@@ -10,6 +10,6 @@ public class textRot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.rotation = Quaternion.LookRotation(Camera.main.transform.forward, Camera.main.transform.up);
+		transform.rotation = Quaternion.LookRotation(Camera.current.transform.forward, Camera.current.transform.up);
 	}
 }

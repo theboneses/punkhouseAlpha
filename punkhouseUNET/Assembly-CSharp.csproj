@@ -74,6 +74,7 @@
      <Compile Include="Assets\SCRIPTS\Inactive\textRot.cs" />
      <None Include="Assets\SCRIPTS\Inactive\PHAhardwarestore01.txt" />
      <None Include="Assets\SCRIPTS\Inactive\PHAcoffeeshop01.txt" />
+     <None Include="Assets\SCRIPTS\Active\demo.txt" />
      <None Include="Assets\SCRIPTS\Inactive\npcSpeech.txt" />
      <None Include="Assets\SCRIPTS\Inactive\PHAthriftstore01.txt" />
  <Reference Include="UnityEngine.UI">

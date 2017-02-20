@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraSwitch : MonoBehaviour {
 
-	public float transitionDuration = 4.5f;
+	public float transitionDuration = 0.5f;
 	public Camera currentCamera;
 	public Transform target;
 	public bool enableHouseCam =false;
@@ -28,7 +28,7 @@ public class CameraSwitch : MonoBehaviour {
 
 
 			currentCamera.transform.position = Vector3.Lerp(startingPos, target.position, t*smoove);
-			//currentCamera.transform.position = Vector3.Lerp(startingPos, target.position,t*smoove);
+
 			yield return 0;
 		}
 		if (isroom) {
