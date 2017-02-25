@@ -99,20 +99,21 @@
      <None Include="Assets\scripts\demo.txt" />
      <None Include="Assets\IMPORTEDJUNK\washbasin\archibase.net.txt" />
      <None Include="Assets\IMPORTEDJUNK\toilet\archibase.net.txt" />
-     <None Include="Assets\materials\spotlight3.shader" />
+     <None Include="Assets\materials\houseDiffuseVert.shader" />
      <None Include="Assets\scripts\npcSpeech.txt" />
      <None Include="Assets\IMPORTEDJUNK\1fa8b823312df11c5542e572fbae8005\archibase.net.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\IMPORTEDJUNK\sink\archibase.net.txt" />
      <None Include="Assets\scripts\startHelp03.txt" />
      <None Include="Assets\scripts\startHelp02.txt" />
+     <None Include="Assets\materials\houseMask.shader" />
      <None Include="Assets\scripts\quest1.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\scripts\startHelp01.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
-     <None Include="Assets\materials\spotlight.shader" />
+     <None Include="Assets\materials\houseDiffuse.shader" />
      <None Include="Assets\IMPORTEDJUNK\wc\archibase.net.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
