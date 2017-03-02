@@ -81,7 +81,6 @@
      <Compile Include="Assets\scripts\frontdoor.cs" />
      <Compile Include="Assets\scripts\gameControl.cs" />
      <Compile Include="Assets\scripts\houseCamera.cs" />
-     <Compile Include="Assets\scripts\irisEnabled.cs" />
      <Compile Include="Assets\scripts\itemCollision.cs" />
      <Compile Include="Assets\scripts\itemScript.cs" />
      <Compile Include="Assets\scripts\joinGame.cs" />

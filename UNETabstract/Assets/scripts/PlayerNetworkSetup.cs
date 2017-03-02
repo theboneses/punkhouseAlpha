@@ -7,26 +7,28 @@ public class PlayerNetworkSetup : NetworkBehaviour {
 
 	private GameObject CameraManager;
 	private GameObject InputField;
+	//private GameObject PlayerHouseIris;
 	[SerializeField]GameObject self;
 	[SerializeField]Camera myCamera;
 
 	void Start(){
 		if (isLocalPlayer) {
+
 			myCamera.enabled = true;
 			GetComponent<PnetController> ().enabled = true;
 			GetComponentInChildren<movelook> ().enabled = true;
-
 			GetComponent<NetworkAnimator>().SetParameterAutoSend(0,true);
-
 
 			GetComponentInChildren<cameraFNet> ().enabled = true;
 
-
-
 			GetComponentInChildren<houseCamera> ().enabled = false;
+			//PlayerHouseIris = GameObject.Find ("Iris");
+			//PlayerHouseIris.SetActive(true);
+			//GetComponentInChildren<houseCamera> ().iris = PlayerHouseIris;
 
 			InputField = GameObject.Find ("UserInputField");
 			GetComponent<PlayerSyncText> ().playerText = InputField.GetComponentInChildren<Text> ();
+
 		}
 	}
 	// Use this for initialization

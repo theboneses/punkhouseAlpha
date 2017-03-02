@@ -10,7 +10,7 @@ public class frontdoor : MonoBehaviour {
 
 	public houseCamera hC;
 	public cameraFNet cFN;
-
+	public GameObject HouseIris;
 
 
 
@@ -36,10 +36,14 @@ public class frontdoor : MonoBehaviour {
 	void OnTriggerExit (Collider other){
 		currentCamera = other.GetComponentInChildren<Camera> ();
 		hC = other.GetComponentInChildren<houseCamera> ();
+		hC.iris = HouseIris;
 		cFN = other.GetComponentInChildren<cameraFNet> ();
 		StartCoroutine (Transition ());
 		cFN.enabled = !cFN.enabled;
 		hC.enabled = !hC.enabled;
+
+
+		//HouseIris.SetActive (!HouseIris.activeSelf);
 		}
 	}
 

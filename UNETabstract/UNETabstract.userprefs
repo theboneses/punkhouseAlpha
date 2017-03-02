@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/materials/houseSpotlight.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/cameraFNet.cs">
     <Files>
-      <File FileName="Assets/scripts/irisEnabled.cs" Line="1" Column="1" />
-      <File FileName="Assets/materials/spotlight.shader" Line="24" Column="28" />
-      <File FileName="Assets/materials/houseSpotlight.shader" Line="10" Column="33" />
+      <File FileName="Assets/scripts/houseCamera.cs" Line="29" Column="29" />
+      <File FileName="Assets/scripts/PlayerNetworkSetup.cs" Line="27" Column="6" />
+      <File FileName="Assets/scripts/frontdoor.cs" Line="39" Column="23" />
+      <File FileName="Assets/scripts/cameraFNet.cs" Line="19" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

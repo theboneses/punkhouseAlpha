@@ -7,31 +7,37 @@ public class houseCamera : MonoBehaviour {
 	public Camera houseCam;
 	public GameObject[] player;
 	public List<GameObject> players;
-
+	public GameObject iris;
 
 	public Vector3 pCoM;
-	//private Vector3 lastPCoM;
+
 	[SerializeField]
 	int offset;
+	[SerializeField]
+	int smooveH;
 
 
 	// Use this for initialization
 	void Awake() {
 		houseCam = GameObject.FindObjectOfType<Camera>();
 
+
 	
 	}
-	
+	void OnEnable(){
+		iris.SetActive (true);
+		houseCam.fieldOfView = 30;
+	}
+	void OnDisable() {
+		iris.SetActive (false);
+	}
 	// Update is called once per frame
 	void Update () {
-		//updateList (players);
-		//Debug.Log ("we updated player");
-		pCoM = playerCenter(pCoM,players);
+		pCoM=playerCenter(pCoM,players);
 
 		houseCam.transform.LookAt(pCoM);
-		houseCam.transform.position=Vector3.Lerp(houseCam.transform.position, pCoM+ new Vector3(0,2,offset), Time.deltaTime);
-		//lastPCoM=pCoM;	
-
+		houseCam.transform.position=Vector3.Lerp(houseCam.transform.position, new Vector3(pCoM.x,pCoM.y+3,offset), Time.deltaTime*smooveH);
+		iris.transform.position = Vector3.Lerp (iris.transform.position,new Vector3(pCoM.x,pCoM.y+2,1),Time.deltaTime*smooveH);
 
 	}
 	public void updateList(List<GameObject> playerList){

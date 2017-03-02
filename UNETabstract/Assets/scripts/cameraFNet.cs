@@ -8,8 +8,8 @@ public class cameraFNet : MonoBehaviour {
 	public Vector3 offset;
 	public int smoove;
 
-	void Start(){
-		//LPlayer = GameObject.FindGameObjectWithTag ("Player");
+	void OnEnable(){
+		currentCamera.fieldOfView = 50;
 	}
 	// Update is called once per frame
 	void Update () 
