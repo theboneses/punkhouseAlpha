@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Networking;
+using UnityEngine.Networking.Match;
+
+
 public class HostGame : NetworkBehaviour {
 	[SerializeField]
 	private uint roomsize = 6;
@@ -25,10 +28,12 @@ public class HostGame : NetworkBehaviour {
 		if (roomName != "" && roomName != null) {
 			Debug.Log("we are creating room:"+roomName+"at size:"+roomsize+"please wait");
 			//create room
-			networkManager.matchMaker.CreateMatch(roomName,roomsize,true,"",networkManager.OnMatchCreate);
+			networkManager.matchMaker.CreateMatch(roomName,roomsize,true,"", "", "", 0, 0, networkManager.OnMatchCreate);
 		}
 	}
 	public void leaveRoom(){
+		MatchInfo matchInfo = networkManager.matchInfo;
+		networkManager.matchMaker.DropConnection (matchInfo.networkId,matchInfo.nodeId,0,networkManager.OnDropConnection);
 		networkManager.StopHost ();
 	}
 }

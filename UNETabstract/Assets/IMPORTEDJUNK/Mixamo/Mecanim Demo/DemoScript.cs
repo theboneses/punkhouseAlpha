@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DemoScript : MonoBehaviour {
 
-	public NavMeshAgent myAgent;
+	public UnityEngine.AI.NavMeshAgent myAgent;
 	private Animator myAnimator;
 	public float Zvelocity;
 	public float Xvelocity;
@@ -13,7 +13,7 @@ public class DemoScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		myAnimator = GetComponent<Animator>();
-		myAgent = GetComponent<NavMeshAgent> ();
+		myAgent = GetComponent<UnityEngine.AI.NavMeshAgent> ();
 	}
 	
 	// Update is called once per frame

@@ -5,14 +5,14 @@ using UnityEngine.Networking;
 public class agentScriptNet : NetworkBehaviour {
 
 	public Animator anim;
-	private NavMeshAgent agent;
+	private UnityEngine.AI.NavMeshAgent agent;
 	public enum MoveState {Idle, Walking}
 	public MoveState moveState;
 
 	// Use this for initialization
 	void Start () 
 	{
-		agent = this.GetComponent<NavMeshAgent>();
+		agent = this.GetComponent<UnityEngine.AI.NavMeshAgent>();
 		//GetComponent<NavMeshAgent>();
 		anim = this.GetComponent<Animator> ();
 	}

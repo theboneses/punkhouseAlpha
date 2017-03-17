@@ -1,11 +1,11 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{179FB3CF-D84D-8E22-7AC2-0B5B1E5BC3BC}") = "UNETabstract", "Assembly-CSharp-firstpass.csproj", "{D1D1C46E-391D-FABC-7955-6176A8092958}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNETabstract", "Assembly-CSharp-firstpass.csproj", "{D1D1C46E-391D-FABC-7955-6176A8092958}"
 EndProject
-Project("{179FB3CF-D84D-8E22-7AC2-0B5B1E5BC3BC}") = "UNETabstract", "Assembly-CSharp.csproj", "{57F19644-E6F2-F894-44ED-AAFB7610279E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNETabstract", "Assembly-CSharp.csproj", "{57F19644-E6F2-F894-44ED-AAFB7610279E}"
 EndProject
-Project("{179FB3CF-D84D-8E22-7AC2-0B5B1E5BC3BC}") = "UNETabstract", "Assembly-CSharp-Editor.csproj", "{C869C4D4-B241-9456-AEEA-5060D821A3C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNETabstract", "Assembly-CSharp-Editor.csproj", "{C869C4D4-B241-9456-AEEA-5060D821A3C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
